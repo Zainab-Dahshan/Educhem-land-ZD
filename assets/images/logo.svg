@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+  <!-- Outer Rectangle -->
+  <rect x="5" y="5" width="290" height="140" fill="none" stroke="#f39c12" stroke-width="5" />
+  
+  <!-- Molecular Structure Icon -->
+  <g transform="translate(40, 75) scale(0.8)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="10" fill="#f39c12" />
+    <!-- Connecting lines -->
+    <line x1="0" y1="0" x2="30" y2="-20" stroke="#f39c12" stroke-width="3" />
+    <line x1="0" y1="0" x2="-30" y2="-20" stroke="#f39c12" stroke-width="3" />
+    <line x1="0" y1="0" x2="30" y2="20" stroke="#f39c12" stroke-width="3" />
+    <line x1="0" y1="0" x2="-30" y2="20" stroke="#f39c12" stroke-width="3" />
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#f39c12" stroke-width="3" />
+    <!-- Outer circles -->
+    <circle cx="30" cy="-20" r="5" fill="#f39c12" />
+    <circle cx="-30" cy="-20" r="5" fill="#f39c12" />
+    <circle cx="30" cy="20" r="5" fill="#f39c12" />
+    <circle cx="-30" cy="20" r="5" fill="#f39c12" />
+    <circle cx="0" cy="40" r="5" fill="#f39c12" />
+  </g>
+  
+  <!-- Text "Educhem Land" -->
+  <text x="80" y="90" fill="#f39c12" font-family="Arial" font-size="28" font-weight="bold">
+    Educhem Land
+  </text>
+</svg>
+
+
