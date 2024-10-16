@@ -1,0 +1,152 @@
+Educhemland - Education platform 
+
+alt = Educhemland logo
+
+<ion-icon name="menu-outline"></ion-icon>
+
+<ion-icon name="close-outline"></ion-icon>
+
+alt = Educhemland logo
+
+Home
+About
+Deparments
+Blog
+Contact
+
+Get Started
+
+
+
+# HERO
+
+alt = A young lady sits, holding a pen and a notebook.
+
+Start Your Future Education in Chemistry Today
+
+Enhance your skills in organic, inorganic, physical, and analytical chemistry with expert training in El Mansoura, Dakahlia Governorate.
+
+Discover More
+
+
+
+# ABOUT
+
+alt = Edchemuland students
+alt = Vector line art
+
+<ion-icon name="play"></ion-icon>
+
+Dive into Chemistry Courses and Laboratory Skills with Educhemland Platform
+
+Discover our curated selection of high-quality products tailored to your needs. Our offerings blend innovation with reliability, guaranteeing satisfaction and value for your investment.
+Get Started Today
+
+
+
+# DEPARTMENTS
+
+alt = Vector line art
+
+We Have Most of Popular Departments
+
+alt = Inorganic Chemistry
+Inorganic Chemistry
+
+Learn More 
+<ion-icon name="arrow-forward"></ion-icon>
+
+alt = Biochemistry
+Biochemistry
+
+alt = Organic Chemistry
+Organic Chemistry
+
+View All Department
+
+
+
+# INSTRUCTORS
+
+alt = Vector line art
+
+Introduce with Our Famous Teacher
+
+View All Teachers
+
+alt = Shaapir Prio
+Shaapir Prio
+
+Assistant Director
+
+<ion-icon name="logo-google"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
+alt = Sellina
+Sellina
+
+Director
+
+alt = John Smith
+John Smith
+
+Assistant Director
+
+
+
+# CTA
+
+Create Free Account & Get Register
+
+alt = Vector arrow art
+
+Register Now
+
+
+
+# FOOTER
+
+alt = Educhemland logo
+
+Professionally scale cross functional human capital and extensive technology.
+
+<ion-icon name="logo-google"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
+Services
+
+Design
+Development
+Marketing
+Content Writing
+
+Company
+
+About
+Terms
+Privacy Policy
+Careers
+
+Job Info
+
+Select
+Services
+Payment
+
+Contact
+Email : 
+zainabeldahshan@gmail.com
+Address : 
+Mansoura City, Egypy.
+
+&copy; 2022@Zainab-Dahshan. All right reserved
+
+
+
+# GO TO TOP
+
+<ion-icon name="arrow-up"></ion-icon>
