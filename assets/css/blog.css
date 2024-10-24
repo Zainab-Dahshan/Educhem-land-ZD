@@ -1,0 +1,184 @@
+/*-----------------------------------*\
+ * #style.css
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+ * #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+    --rich-black-fogra-29: hsl(240, 13%, 8%);
+    --silver-chalice: hsl(0, 0%, 70%);
+    --floral-white: hsl(38, 100%, 98%);
+    --raisin-black: hsl(240, 8%, 18%);
+    --sonic-silver: hsl(240, 3%, 45%);
+    --mango-tango: hsl(20, 100%, 64%);
+    --orange-web: hsl(39, 100%, 50%);
+    --cultured: hsl(210, 17%, 98%);
+    --mantis: hsl(118, 41%, 62%);
+    --gambog: hsl(39, 100%, 45%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --onyx: hsl(0, 0%, 23%);
+    --gradient: linear-gradient(90deg, hsl(38, 100%, 98%) 21.32%, hsl(144, 45%, 98%) 130%);
+    --ff-poppins: 'Poppins', sans-serif;
+    --fs-1: 30px;
+    --fs-2: 28px;
+    --fs-3: 24px;
+    --fs-4: 20px;
+    --fs-5: 18px;
+    --fw-500: 500;
+    --fw-700: 700;
+    --transition: 0.2s ease-in-out;
+    --section-padding: 80px;
+  }
+  
+  /*-----------------------------------*\
+   * #RESET
+  \*-----------------------------------*/
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li { list-style: none; }
+  a { text-decoration: none; }
+  a, img, span, button { display: block; }
+  
+  /*-----------------------------------*\
+   * #REUSED STYLE
+  \*-----------------------------------*/
+  
+  .container { padding-inline: 15px; }
+  
+  .btn {
+    color: var(--white);
+    font-family: var(--ff-poppins);
+    padding: 20px 30px;
+    border-radius: 15px;
+    transition: var(--transition);
+  }
+  
+  .btn-primary {
+    background: var(--orange-web);
+    box-shadow: 5px 10px 30px hsla(39, 100%, 50%, 0.3);
+  }
+  
+  .btn-primary:is(:hover, :focus) {
+    background: var(--gambog);
+    transform: translateY(-3px);
+  }
+  
+  /*-----------------------------------*\
+   * #HERO
+  \*-----------------------------------*/
+  
+  .hero {
+    background: var(--gradient);
+    padding: 150px 0 var(--section-padding);
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: var(--fs-1);
+    color: var(--rich-black-fogra-29);
+  }
+  
+  .hero-content p {
+    font-size: var(--fs-4);
+    color: var(--sonic-silver);
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*-----------------------------------*\
+   * #FEATURED ARTICLES
+  \*-----------------------------------*/
+  
+  .featured-articles {
+    padding: var(--section-padding) 0;
+  }
+  
+  .featured-articles h2 {
+    text-align: center;
+    font-size: var(--fs-2);
+    color: var(--rich-black-fogra-29);
+    margin-bottom: 40px;
+  }
+  
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .article {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .article-content {
+    padding: 15px;
+  }
+  
+  .article-content h3 {
+    font-size: var(--fs-3);
+    color: var(--rich-black-fogra-29);
+  }
+  
+  .article-content p {
+    font-size: var(--fs-5);
+    color: var(--sonic-silver);
+    margin: 10px 0;
+  }
+  
+  /*-----------------------------------*\
+   * #CALL TO ACTION
+  \*-----------------------------------*/
+  
+  .cta-section {
+    background: var(--raisin-black);
+    color: var(--white);
+    padding: var(--section-padding);
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: var(--fs-2);
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    margin-bottom: 30px;
+  }
+  
+  .cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cta-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid var(--silver-chalice);
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .cta-form button {
+    padding: 10px 20px;
+  }
+  
